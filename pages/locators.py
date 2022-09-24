@@ -15,4 +15,5 @@ class ProductPageLocators:
     BASKET_FORM = (By.CSS_SELECTOR, "#add_to_basket_form")
     NAME_BOOK = (By.CSS_SELECTOR, "h1:nth-child(1)")
     PRICE_BOOK = (By.CSS_SELECTOR, ".col-sm-6  .price_color")
-    BASKET_TOTAL = (By.CSS_SELECTOR, ".basket-mini>strong")
+    BASKET_TOTAL = (By.CSS_SELECTOR, "div[class='alertinner '] p strong")
+    NAME_BOOK_IN_BASKET = (By.CSS_SELECTOR, "#messages>div:nth-child(1)>div>strong")
